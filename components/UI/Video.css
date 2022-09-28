@@ -1,0 +1,19 @@
+.box {
+    padding: 10px;
+    text-align: justify;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+.box:first-child {
+    margin-top: none;
+}
+.parent{
+    width: 100%; /* Try setting this to 400px or something */
+    display: table;
+    border: 1px solid #444444;
+}
+[class*="col-"] {
+    float: left;
+    padding: 100px;
+    border: 1px solid red;
+  }
